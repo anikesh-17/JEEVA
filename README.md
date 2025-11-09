@@ -32,13 +32,13 @@ It empowers individuals with:
 | 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead | AI models, backend architecture, APIs |
 | 🔗 [**Anuj Raghuvanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer | Smart contracts, blockchain integration |
 | 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer | Chatbot, ML microservices |
-| 💻 [**Amarjeet Kumar**](#) | Frontend Developer | React UI, dashboard, chatbot integration |
+| 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer | React UI, dashboard, chatbot integration |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
   <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuvanshi"></a>
   <a href="https://github.com/anshikachaurasia20"><img src="https://github.com/anshikachaurasia20.png" width="80" height="80" alt="Anshika Chaurasia"></a>
-  <a href="#"><img src="#" width="80" height="80" alt="Amarjeet Kumar"></a>
+  <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
 </p>
 
 <p align="center">
