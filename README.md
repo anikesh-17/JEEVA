@@ -30,7 +30,7 @@ It empowers individuals with:
 | Member | Role | Focus Area |
 |---------|------|-------------|
 | 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead | AI models, backend architecture, APIs |
-| 🔗 [**Anuj Raghuvanshi**](https://github.com/AnujRaghuvanshi) | Blockchain Developer | Smart contracts, blockchain integration |
+| 🔗 [**Anuj Raghuwanshi**](https://github.com/AnujRaghuvanshi) | Blockchain Developer | Smart contracts, blockchain integration |
 | 🤖 [**Anshika Chaurasia**](https://github.com/AnshikaChaurasia) | AI + Backend Developer | Chatbot, ML microservices |
 | 💻 [**Amarjeet Kumar**](https://github.com/AmarjeetKumar) | Frontend Developer | React UI, dashboard, chatbot integration |
 
