@@ -1,4 +1,3 @@
-
 # 🏥 JEEVA – Digital Health Record Management System
 
 <p align="center">
@@ -27,23 +26,27 @@ It empowers individuals with:
 
 ## 👥 Team Forbidden 403
 
-| Member | Role | Focus Area |
-|---------|------|-------------|
-| 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead | AI models, backend architecture, APIs |
-| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer | Smart contracts, blockchain integration |
-| 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer | Chatbot, ML microservices |
-| 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer | React UI, dashboard, chatbot integration |
+| Member | Role |
+|---------|------|
+| 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead |
+| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer |
+| 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer |
+| 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer |
+| 🎨 [**Ankit Singh**](https://github.com/Ankit8081) | Frontend Developer |
+| 🧩 [**Anand Kumar Singh**](https://github.com/AnandSingh06) | Backend Developer |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
   <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuwanshi"></a>
   <a href="https://github.com/anshikachaurasia20"><img src="https://github.com/anshikachaurasia20.png" width="80" height="80" alt="Anshika Chaurasia"></a>
   <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
+  <a href="https://github.com/Ankit8081"><img src="https://github.com/Ankit8081.png" width="80" height="80" alt="Ankit Singh"></a>
+  <a href="https://github.com/AnandSingh06"><img src="https://github.com/AnandSingh06.png" width="80" height="80" alt="Anand Kumar Singh"></a>
 </p>
 
 <p align="center">
   <b>Team Forbidden 403</b><br>
-  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar • 🎨 Ankit Singh • 🧩 Anand Kumar Singh
 </p>
 
 ---
@@ -167,11 +170,12 @@ Predicts user health risk using medical, lifestyle, and nutrition data.
 
 ---
 
+
 ## 🧰 Tools & Workflow
 - 🧱 **Version Control:** Git + GitHub  
-- 📋 **Project Management:** Trello / Notion  
-- 🧪 **Testing:** Postman / Jest  
-- 🎨 **Design:** Figma  
+- 📋 **Project Management:** Trello + Notion  
+- 🧪 **Testing:** Postman / Hoppscotch
+- 🎨 **Design:** Canva
 - ☁️ **Deployment:** Vercel (Frontend), Render (Backend & ML)
 
 ---
