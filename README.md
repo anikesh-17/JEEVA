@@ -30,20 +30,20 @@ It empowers individuals with:
 | Member | Role | Focus Area |
 |---------|------|-------------|
 | 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead | AI models, backend architecture, APIs |
-| 🔗 [**Anuj Raghuvanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer | Smart contracts, blockchain integration |
+| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer | Smart contracts, blockchain integration |
 | 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer | Chatbot, ML microservices |
 | 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer | React UI, dashboard, chatbot integration |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
-  <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuvanshi"></a>
+  <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuwanshi"></a>
   <a href="https://github.com/anshikachaurasia20"><img src="https://github.com/anshikachaurasia20.png" width="80" height="80" alt="Anshika Chaurasia"></a>
   <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
 </p>
 
 <p align="center">
   <b>Team Forbidden 403</b><br>
-  🧠 Anikesh Sharma • 🔗 Anuj Raghuvanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar
 </p>
 
 ---
