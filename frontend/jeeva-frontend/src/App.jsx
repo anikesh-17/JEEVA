@@ -3,7 +3,7 @@ import Navbar from './Component/Navbar'
 
 const App = () => {
   return (
-    <div className='font-sm text-black'>
+    <div className='w-full h-screen font-sm text-black'>
       <Navbar/>
     </div>
   )
