@@ -1,13 +1,15 @@
 import React from 'react'
 import { RiHospitalFill } from "react-icons/ri";
+import Navbar1 from './Navbar1';
 
 const Navbar = () => {
   return (
-    <div className='w-40 h-20'>
-        <div className='w-60 h-10 font-sm text-blue flex p-5 items-center gap-2 '>
+    <div className='w-full bg-[#ecf4e7] px-10 py-4'>
+        <div className='w-[200px] h-15 text-xl font-bold  flex p-5 items-center gap-2 bg-zinc-200 rounded-md'>
            < RiHospitalFill/>
-            <h1>Evergreen Hospital</h1>
+            <h1>JEEVA</h1>
         </div>
+        <Navbar1/>
     </div>
   )
 }
