@@ -8,7 +8,7 @@
 </p>
 
 > 🚀 **A Blockchain & AI Powered Platform for Portable, Secure, and Smart Health Records**  
-> Developed by **Team Forbidden 403**
+> Developed by **Arceus 🍀**
 
 ---
 
