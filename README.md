@@ -29,11 +29,12 @@ It empowers individuals with:
 | Member | Role |
 |---------|------|
 | 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead |
-| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain Developer |
+| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain + Backend Developer |
 | 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer |
 | 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer |
-| 🎨 [**Ankit Singh**](https://github.com/Ankit8081) | Frontend Developer |
+| 👨🏻‍💻 [**Ankit Singh**](https://github.com/Ankit8081) | Frontend Developer |
 | 🧩 [**Anand Kumar Singh**](https://github.com/AnandSingh06) | Backend Developer |
+| 🌐 [**Jigyasha Kumari**](https://github.com/Jigyasha19) | Frontend Developer |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
@@ -42,11 +43,12 @@ It empowers individuals with:
   <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
   <a href="https://github.com/Ankit8081"><img src="https://github.com/Ankit8081.png" width="80" height="80" alt="Ankit Singh"></a>
   <a href="https://github.com/AnandSingh06"><img src="https://github.com/AnandSingh06.png" width="80" height="80" alt="Anand Kumar Singh"></a>
+  <a href="https://github.com/Jigyasha19"><img src="https://github.com/Jigyasha19.png" width="80" height="80" alt="Jigyasha Kumari"></a>
 </p>
 
 <p align="center">
   <b>Team Forbidden 403</b><br>
-  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar • 🎨 Ankit Singh • 🧩 Anand Kumar Singh
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar • 👨🏻‍💻 Ankit Singh • 🧩 Anand Kumar Singh • 🌐 Jigyasha Kumari
 </p>
 
 ---
