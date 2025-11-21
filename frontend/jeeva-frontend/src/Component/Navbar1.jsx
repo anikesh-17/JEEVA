@@ -12,7 +12,7 @@ import { FaBriefcaseMedical } from "react-icons/fa";
 
 const Navbar1 = () => {
   return (
-    <div className='w-[200px] h-full  bg-zinc-200 font-sm mt-2 p-5 '>
+    <div className='w-[200px] bg-zinc-200 font-sm mt-2 p-5 '>
         <NavLink style={(e)=>{
           return{
             color: e.isActive ? "blue" : ""

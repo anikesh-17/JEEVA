@@ -3,7 +3,7 @@ import React from 'react'
 function Inbox() {
   return (
     <div className='w-full mx-auto ml-80 bg-zinc-500'>
-        <h1 className='text-[10vw]  font-bold'>Inbox</h1>>       
+        <h1 className='text-[10vw]  font-bold'>Inbox</h1>     
     </div>
   )
 }
