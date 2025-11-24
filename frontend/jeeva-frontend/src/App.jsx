@@ -1,12 +1,24 @@
 import React from 'react'
 import Navbar from './Component/Navbar'
 import Routing from './Utils/Routing'
+import LocomotiveScroll from 'locomotive-scroll';
 
-const App = () => {
+const App = () => { 
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
-    <div className='w-full h-screen'>
-      <Navbar/>
-      <Routing/>
+    <div className="w-full min-h-screen overflow-x-hidden flex">
+
+      {/* LEFT SIDEBAR */}
+      <div className="fixed left-0 top-0 h-full w-[220px]">
+        <Navbar />
+      </div>
+
+      {/* RIGHT CONTENT */}
+      <div className="ml-[220px] w-full min-h-screen p-4">
+        <Routing />
+      </div>
+
     </div>
   )
 }
