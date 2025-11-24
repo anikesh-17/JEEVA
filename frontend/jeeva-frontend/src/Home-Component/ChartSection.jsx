@@ -29,25 +29,24 @@ function ChartSection() {
   ];
   
   return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      {/* LEFT DONUT CHART BOX */}
-      <div className="bg-white p-6 rounded-xl shadow">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full overflow-x-hidden ">
+
+      {/* LEFT DONUT CHART */}
+      <div className="bg-white p-6 rounded-xl shadow w-full overflow-hidden">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">Report</h2>
           <button className="bg-gray-100 px-3 py-1 rounded-md">Add Report</button>
         </div>
 
-        <div className="flex justify-center">
-          <ResponsiveContainer width="70%" height={200}>
+        <div className="flex justify-center w-full overflow-hidden mt-12">
+          <ResponsiveContainer width="100%" height={220}>
             <PieChart>
               <Pie
                 data={pieData}
-                innerRadius={75}
-                outerRadius={90}
-                fill="#8884d8"
-                paddingAngle={3}
                 dataKey="value"
+                innerRadius={85}
+                outerRadius={95}
+                paddingAngle={3}
               >
                 {pieData.map((entry, index) => (
                   <Cell key={index} fill={COLORS[index]} />
@@ -57,18 +56,14 @@ function ChartSection() {
           </ResponsiveContainer>
         </div>
 
-        {/* Center Percentage Text */}
-        <div className="text-center -mt-32 text-2xl font-bold">
-          75%
-        </div>
-        <p className="text-center text-gray-500 mb-4 ">Total Done</p>
+        <div className="text-center -mt-32 text-2xl font-bold">75%</div>
+        <p className="text-center text-gray-500 mb-4">Total Done</p>
 
-        {/* Legends */}
         <div className="flex justify-around text-sm mt-4">
           <span className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-[#FF6B6B]"></div> Urgent
           </span>
-          <span className="flex items-center gap-2 -ml-3">
+          <span className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-[#FFD93D]"></div> Moderate
           </span>
           <span className="flex items-center gap-2">
@@ -77,8 +72,8 @@ function ChartSection() {
         </div>
       </div>
 
-      {/* RIGHT LINE CHART BOX */}
-      <div className="bg-white p-6 rounded-xl shadow">
+      {/* RIGHT LINE CHART */}
+      <div className="bg-white p-6 rounded-xl shadow w-full overflow-hidden">
         <h2 className="text-lg font-semibold mb-4">Patients Overview</h2>
 
         <ResponsiveContainer width="100%" height={260}>
@@ -91,11 +86,14 @@ function ChartSection() {
           </LineChart>
         </ResponsiveContainer>
 
-        {/* Small Card Inside Chart Box */}
         <div className="mt-4 border rounded-lg p-3 shadow-sm">
           <h3 className="font-semibold text-gray-700">Patients</h3>
-          <p className="text-2xl font-bold">50 <span className="text-green-600 text-sm">Discharged</span></p>
-          <p className="text-sm text-gray-500">10 Executive Room • 20 Premium Room • 16 Appointment • 4 Emergency</p>
+          <p className="text-2xl font-bold">
+            50 <span className="text-green-600 text-sm">Discharged</span>
+          </p>
+          <p className="text-sm text-gray-500">
+            10 Executive Room • 20 Premium Room • 16 Appointment • 4 Emergency
+          </p>
         </div>
       </div>
     </div>
