@@ -5,7 +5,7 @@ import Navbar1 from './Navbar1';
 const Navbar = () => {
   return (
     <div className='w-full bg-[#ecf4e7] px-10 py-4'>
-        <div className='w-[200px] h-15 text-xl font-bold  flex p-5 items-center gap-2 bg-zinc-200 rounded-md'>
+        <div className='w-[200px] h-15 text-xl font-bold  flex p-5 items-center bg-zinc-100 rounded-md'>
            < RiHospitalFill/>
             <h1>JEEVA</h1>
         </div>
