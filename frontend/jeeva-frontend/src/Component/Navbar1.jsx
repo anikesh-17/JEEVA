@@ -9,10 +9,14 @@ import { RiCalendarScheduleLine } from "react-icons/ri";
 import { MdOutlineDateRange } from "react-icons/md";
 import { TbFileReport } from "react-icons/tb";
 import { FaBriefcaseMedical } from "react-icons/fa";
+import { BsRobot } from "react-icons/bs";
+import { MdOutlineCurrencyRupee } from "react-icons/md";
+import { MdOutlineSettings } from "react-icons/md";
+import { TbHelp } from "react-icons/tb";
 
 const Navbar1 = () => {
   return (
-    <div className='w-[200px] bg-zinc-200 font-sm mt-2 p-5 '>
+    <div className='w-[200px] bg-zinc-100 font-sm  p-5'>
         <NavLink style={(e)=>{
           return{
             color: e.isActive ? "blue" : ""
@@ -67,6 +71,37 @@ const Navbar1 = () => {
             color: e.isActive ? "blue" : ""
           }
         }}  to="/human-resources" className="flex items-center gap-2 font-medium"><FaBriefcaseMedical size={18}/><span>Human Resources</span></NavLink>
+
+        <NavLink style={(e)=>{
+          return{
+            color: e.isActive ? "blue" : ""
+          }
+        }}  to="/jeevaAi" className="flex items-center gap-2 font-medium mt-1"><BsRobot size={18}/><span>JeevaAi</span></NavLink> 
+
+        <h1 className='mt-8 text-zinc-500'>Others</h1>
+
+        <NavLink style={(e)=>{
+          return{
+            color: e.isActive ? "blue" : ""
+          }
+        }}  to="/payment" className="flex items-center gap-2 font-medium mt-1"><MdOutlineCurrencyRupee size={18}/><span>Payment</span></NavLink>
+
+        <h1 className='mt-8 text-zinc-500'>Support</h1>
+
+        <NavLink style={(e)=>{
+          return{
+            color: e.isActive ? "blue" : ""
+          }
+        }}  to="/settings" className="flex items-center gap-2 font-medium mt-1"><MdOutlineSettings size={18}/><span>Settings</span></NavLink>
+
+        <NavLink style={(e)=>{
+          return{
+            color: e.isActive ? "blue" : ""
+          }
+        }}  to="/help" className="flex items-center gap-2 font-medium mt-1"><TbHelp size={18}/><span>Help</span></NavLink>
+
+
+
     </div>
   )
 }

@@ -10,7 +10,7 @@ const App = () => {
     <div className="w-full min-h-screen overflow-x-hidden flex">
 
       {/* LEFT SIDEBAR */}
-      <div className="fixed left-0 top-0 h-full w-[220px]">
+      <div className="left-0 top-0 w-[20px]">
         <Navbar />
       </div>
 
