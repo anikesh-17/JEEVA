@@ -13,7 +13,7 @@ import JeevaAi from '../Component/JeevaAi'
 import Payment from '../Component/Payment'
 import Settings from '../Component/Settings'
 import Help from '../Component/Help'
-import Layout from '../Component/Layout'
+
 
 function Routing() {
   return (
