@@ -23,12 +23,12 @@ const Navbar1 = () => {
 
   return (
     <div
-      className={`
-        bg-zinc-100 h-screen p-5 font-sm border-r
-        transition-all duration-300
-        ${isOpen ? "w-[220px]" : "w-[70px]"}
-      `}
-    >
+  className={`
+    bg-zinc-100  min-h-full p-5 font-sm border-r
+    transition-all duration-300
+    ${isOpen ? "w-[220px]" : "w-[70px]"}
+  `}
+>
       {/* Toggle Button */}
       <div
         className="flex justify-end mb-4 cursor-pointer"

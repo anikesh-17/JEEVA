@@ -6,7 +6,7 @@ import PatientTable from '../Home-Component/PatientTable'
 
 function Home() {
   return (
-       <div className="w-full min-h-screen bg-sky-100 p-4 overflow-x-hidden">
+       <div className=" w-full min-h-screen bg-sky-100 p-4 overflow-x-hidden">
 
       {/* TOP BAR (Dashboard + Search) */}
       <div className="flex items-center justify-between bg-white p-3 rounded-md mb-4 shadow-sm">
