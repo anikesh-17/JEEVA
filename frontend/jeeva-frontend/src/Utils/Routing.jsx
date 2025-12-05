@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Navbar from '../Component/Navbar'
 import Home from '../Component/Home'
 import Inbox from '../Component/Inbox'
 import Doctor from '../Component/Doctor'
@@ -14,26 +15,28 @@ import Payment from '../Component/Payment'
 import Settings from '../Component/Settings'
 import Help from '../Component/Help'
 
-
 function Routing() {
   return (
-    <div>
     <Routes>
-        <Route path='/' element= {<Home />}/>
-        <Route path='/inbox' element= {<Inbox/>}/>
-        <Route path='/doctor' element= {<Doctor/>}/>
-        <Route path='/patient' element= {<Patient/>}/>
-        <Route path='/departments' element= {<Department/>}/>
-        <Route path='/schedule' element= {<Schedule/>}/>
-        <Route path='/appointment' element= {<Appointment/>}/>
-        <Route path='/report' element= {<Report/>}/>
-        <Route path='/human-resources' element= {<Human_Resource/>}/>
-        <Route path='/jeevaAi' element= {<JeevaAi/>}/>
-        <Route path='/payment' element= {<Payment/>}/>
-        <Route path='/settings' element= {<Settings/>}/>
-        <Route path='/help' element= {<Help/>}/>
+
+      <Route path="/" element={<Navbar />}>
+        <Route index element={<Home />} />
+        <Route path="inbox" element={<Inbox />} />
+        <Route path="doctor" element={<Doctor />} />
+        <Route path="patient" element={<Patient />} />
+        <Route path="departments" element={<Department />} />
+        <Route path="schedule" element={<Schedule />} />
+        <Route path="appointment" element={<Appointment />} />
+        <Route path="report" element={<Report />} />
+        <Route path="human-resources" element={<Human_Resource />} />
+        <Route path="jeevaAi" element={<JeevaAi />} />
+        <Route path="payment" element={<Payment />} />
+        <Route path="settings" element={<Settings />} />
+        <Route path="help" element={<Help />} />
+
+      </Route>
+
     </Routes>
-    </div>
   )
 }
 
