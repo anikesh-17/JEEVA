@@ -124,7 +124,7 @@ const Navbar1 = () => {
 
       <NavLink
         style={(e) => ({ color: e.isActive ? "blue" : "" })}
-        to="/jeevaAi"
+        to="/jeeva-ai"
         className="flex items-center gap-2 font-medium mt-1"
       >
         <BsRobot size={18} />

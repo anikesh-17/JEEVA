@@ -24,31 +24,25 @@ It empowers individuals with:
 
 ---
 
-## 👥 Team Forbidden 403
+## 👥 Team Arceus 🍀
 
 | Member | Role |
 |---------|------|
-| 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Lead |
+| 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Developer |
 | 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain + Backend Developer |
-| 🤖 [**Anshika Chaurasia**](https://github.com/anshikachaurasia20) | AI + Backend Developer |
 | 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer |
-| 👨🏻‍💻 [**Ankit Singh**](https://github.com/Ankit8081) | Frontend Developer |
-| 🧩 [**Anand Kumar Singh**](https://github.com/AnandSingh06) | Backend Developer |
 | 🌐 [**Jigyasha Kumari**](https://github.com/Jigyasha19) | Frontend Developer |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
   <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuwanshi"></a>
-  <a href="https://github.com/anshikachaurasia20"><img src="https://github.com/anshikachaurasia20.png" width="80" height="80" alt="Anshika Chaurasia"></a>
   <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
-  <a href="https://github.com/Ankit8081"><img src="https://github.com/Ankit8081.png" width="80" height="80" alt="Ankit Singh"></a>
-  <a href="https://github.com/AnandSingh06"><img src="https://github.com/AnandSingh06.png" width="80" height="80" alt="Anand Kumar Singh"></a>
   <a href="https://github.com/Jigyasha19"><img src="https://github.com/Jigyasha19.png" width="80" height="80" alt="Jigyasha Kumari"></a>
 </p>
 
 <p align="center">
   <b>Team Forbidden 403</b><br>
-  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 🤖 Anshika Chaurasia • 💻 Amarjeet Kumar • 👨🏻‍💻 Ankit Singh • 🧩 Anand Kumar Singh • 🌐 Jigyasha Kumari
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 💻 Amarjeet Kumar • 🌐 Jigyasha Kumari
 </p>
 
 ---
