@@ -17,12 +17,16 @@ import DiabetesPage from "../pages/DiabetesPage";
 import HeartPage from "../pages/HeartPage";
 import BreastPage from "../pages/BreastPage";
 import ParkinsonPage from "../pages/ParkinsonPage";
+import Login from "../pages/Login"   
+
 
 
 function Routing() {
   return (
     <div>
     <Routes>
+    
+        <Route path="/Login" element={<Login />} />
         <Route path='/' element= {<Home />}/>
         <Route path='/inbox' element= {<Inbox/>}/>
         <Route path='/doctor' element= {<Doctor/>}/>
