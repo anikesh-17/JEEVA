@@ -1,26 +1,29 @@
-import React from 'react'
-import Navbar from './Component/Navbar'
-import Routing from './Utils/Routing'
-import LocomotiveScroll from 'locomotive-scroll';
+import React, { useState } from "react";
+import Navbar from "./Component/Navbar";
+import Routing from "./Utils/Routing";
 
-const App = () => { 
-  const locomotiveScroll = new LocomotiveScroll();
+const App = () => {
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden flex">
+    <div className="w-full h-screen flex overflow-hidden">
 
       {/* LEFT SIDEBAR */}
-      <div className="left-0 top-0 w-[20px]">
-        <Navbar />
-      </div>
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
 
       {/* RIGHT CONTENT */}
-      <div className="ml-[220px] w-full min-h-screen p-4">
+      <div
+        className={`
+          min-h-screen transition-all duration-300 w-full
+          ${isOpen ? "ml-[220px]" : "ml-[70px]"}
+          overflow-y-auto no-scrollbar
+        `}
+      >
         <Routing />
       </div>
 
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -36,7 +36,7 @@ function PatientTable() {
   ];
 
   return (
-          <div className="bg-white rounded-xl p-6 shadow mt-6 w-full overflow-x-hidden px-4 md:px-6">
+          <div className="bg-white rounded-xl p-6 shadow mt-6 w-full overflow-x-hidden px-4 md:px-6 ">
 
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">Patients</h2>
