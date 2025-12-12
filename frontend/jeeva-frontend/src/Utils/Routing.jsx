@@ -17,13 +17,16 @@ import DiabetesPage from "../pages/DiabetesPage";
 import HeartPage from "../pages/HeartPage";
 import BreastPage from "../pages/BreastPage";
 import ParkinsonPage from "../pages/ParkinsonPage";
+import Profile_Card from '../Home-Component/Profile_Card'
 
 
 function Routing() {
   return (
     <div>
     <Routes>
-        <Route path='/' element= {<Home />}/>
+        <Route path='/' element= {<Home />}>
+         <Route path='/home/profile' element= {<Profile_Card/>}/>
+        </Route>
         <Route path='/inbox' element= {<Inbox/>}/>
         <Route path='/doctor' element= {<Doctor/>}/>
         <Route path='/patient' element= {<Patient/>}/>
@@ -40,6 +43,7 @@ function Routing() {
         <Route path="/jeeva-ai/heart" element={<HeartPage />} />
         <Route path="/jeeva-ai/breast" element={<BreastPage />} />
         <Route path="/jeeva-ai/parkinson" element={<ParkinsonPage />} />
+       
         
     </Routes>
     </div>
