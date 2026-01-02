@@ -37,7 +37,7 @@ const Navbar1 = ({ isOpen, setIsOpen }) => {
       </div>
 
       {/* MENU */}
-      <NavLink to="/" className="flex items-center gap-3 mb-3 font-medium">
+      <NavLink to="/home" className="flex items-center gap-3 mb-3 font-medium">
         <BiSolidDashboard size={18} />
         {isOpen && <span>Home</span>}
       </NavLink>
