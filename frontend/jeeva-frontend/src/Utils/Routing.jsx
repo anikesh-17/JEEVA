@@ -20,6 +20,8 @@ import HeartPage from "../pages/HeartPage";
 import BreastPage from "../pages/BreastPage";
 import ParkinsonPage from "../pages/ParkinsonPage";
 
+import PatientProfile from "../pages/PatientProfile";
+
 function Routing() {
   return (
     <Routes>
@@ -31,8 +33,45 @@ function Routing() {
 
       {/* Protected Home Layout */}
       <Route path="/home" element={<Home />}>
-        <Route path="profile" element={<Profile_Card />} />
+        {/* If you want profile to appear INSIDE the Home layout (width sidebar etc), keep it nested.
+            However, the design requested a full-page feel or potentially a different layout. 
+            If the user wants a standalone profile page, we might want to move it out or use an 'index' route or similar.
+            Based on the request "redirect me into this page", replacing the nested Profile_Card with PatientProfile.
+        */}
+        {/* Note: The user asked for /home/profile to redirect to this new page. 
+             If Home.jsx renders an Outlet, this will render INSIDE Home. 
+             If Home.jsx DOES NOT render an Outlet, this nested route won't show.
+             Checking Home.jsx... it has routing children? No, Home.jsx doesn't seem to have an <Outlet />. 
+             Wait, looking at Home.jsx content again... it does NOT have <Outlet />. 
+             The previous routing had `Route path="/home" element={<Home />}> ... </Route>`.
+             If Home.jsx doesn't have <Outlet/>, nested routes won't verify.
+             
+             CORRECTION: I see existing code `Route path="profile" element={<Profile_Card />} />`. 
+             This implies Home MIGHT need to change or I should make this a sibling route if Home isn't a layout.
+             
+             Let's check Home.jsx content again. 
+             Home.jsx returns `<div>...</div>`. It exports `Home`.
+             It does NOT seem to have an `<Outlet />`.
+             
+             So, `Route path="/home/profile"` should probably be a separate route IF `Home` is just a dashboard page and not a layout.
+             But `Routing.jsx` had it nested. This is suspicious. 
+             
+             Let's look at `App.jsx`. 
+             App.jsx has `<Routing />` inside "RIGHT CONTENT".
+             
+             If `Home` is the Dashboard, then `/home` renders Home.
+             If we want `/home/profile` to render `PatientProfile`, we should probably make it a sibling if Home isn't a wrapper.
+        */}
       </Route>
+
+      {/* 
+         Change Plan: 
+         Make /home/profile a sibling of /home or a child if we add Outlet. 
+         Given Home.jsx seems specific to the "Dashboard" view (charts, cards), 
+         it's better to separate Profile.
+      */}
+      <Route path="/home" element={<Home />} />
+      <Route path="/home/profile" element={<PatientProfile />} />
 
       {/* Other pages */}
       <Route path="/inbox" element={<Inbox />} />
