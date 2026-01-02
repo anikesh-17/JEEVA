@@ -31,18 +31,16 @@ It empowers individuals with:
 | 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Developer |
 | 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain + Backend Developer |
 | 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer |
-| 🌐 [**Jigyasha Kumari**](https://github.com/Jigyasha19) | Frontend Developer |
 
 <p align="center">
   <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
   <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuwanshi"></a>
   <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
-  <a href="https://github.com/Jigyasha19"><img src="https://github.com/Jigyasha19.png" width="80" height="80" alt="Jigyasha Kumari"></a>
 </p>
 
 <p align="center">
   <b>Team Forbidden 403</b><br>
-  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 💻 Amarjeet Kumar • 🌐 Jigyasha Kumari
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 💻 Amarjeet Kumar
 </p>
 
 ---
