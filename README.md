@@ -25,12 +25,22 @@ It allows users to:
 
 ## ❗ Problem JEEVA Solves
 
-🔴 Scattered medical records  
-🔴 Risk of data tampering  
-🔴 No patient control over data  
-🔴 No intelligent health insights  
+| Member | Role |
+|---------|------|
+| 🧠 [**Anikesh Sharma**](https://github.com/anikesh-17) | ML + Backend Developer |
+| 🔗 [**Anuj Raghuwanshi**](https://github.com/anujraghuwanshi9900) | Blockchain + Backend Developer |
+| 💻 [**Amarjeet Kumar**](https://github.com/amarjeet780) | Frontend Developer |
 
-✅ **JEEVA brings everything into one secure, intelligent platform.**
+<p align="center">
+  <a href="https://github.com/anikesh-17"><img src="https://github.com/anikesh-17.png" width="80" height="80" alt="Anikesh Sharma"></a>
+  <a href="https://github.com/anujraghuwanshi9900"><img src="https://github.com/anujraghuwanshi9900.png" width="80" height="80" alt="Anuj Raghuwanshi"></a>
+  <a href="https://github.com/amarjeet780"><img src="https://github.com/amarjeet780.png" width="80" height="80" alt="Amarjeet Kumar"></a>
+</p>
+
+<p align="center">
+  <b>Team Forbidden 403</b><br>
+  🧠 Anikesh Sharma • 🔗 Anuj Raghuwanshi • 💻 Amarjeet Kumar
+</p>
 
 ---
 
