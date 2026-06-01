@@ -48,7 +48,7 @@ def try_load(name, filename):
 try_load("diabetes_model", "diabetes_model.pkl")
 try_load("diabetes_scaler", "diabetes_scaler.pkl")
 try_load("heart_model", "heart_model.pkl")
-try_load("breast_model", "breast_model.pkl")
+try_load("breast_model", "breast_cancer_model.pkl")
 try_load("parkinsons_model", "parkinsons_model.pkl")
 try_load("parkinsons_scaler", "parkinsons_scaler.pkl")
 
