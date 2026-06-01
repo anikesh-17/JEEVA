@@ -33,3 +33,4 @@ dist-ssr/
 *.sw?
 
 jeeva.md
+docs/deployment_guide.md
