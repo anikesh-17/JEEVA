@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "firebase": "^12.7.0",
+    "mongoose": "^7.4.0"
+  }
+}

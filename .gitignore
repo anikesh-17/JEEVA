@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# ============================================================
+# 🔐 SENSITIVE CREDENTIALS - NEVER COMMIT THESE
+# ============================================================
+# Environment variables (MongoDB URI, Firebase secrets, etc.)
+.env
+.env.*
+!.env.example
+
+# Firebase Admin SDK service account (contains private key!)
+backend/firebase-config.json
+firebase-config.json
+**/firebase-config.json
+
+# ============================================================
+# Local / OS files
+# ============================================================
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# ML model binaries (large files, regenerate from training)
+# Uncomment below if you don't want to push .pkl files:
+# *.pkl
