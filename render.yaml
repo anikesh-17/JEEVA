@@ -1,0 +1,58 @@
+services:
+  # 1. Node.js/Express API Backend
+  - type: web
+    name: jeeva-backend
+    env: docker
+    dockerfilePath: Dockerfile
+    dockerContext: backend
+    plan: free
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: MONGODB_URI
+        sync: false  # You will enter your MongoDB Atlas URI in the Render panel
+      - key: FIREBASE_SERVICE_ACCOUNT
+        sync: false  # You will enter your Firebase JSON string in the Render panel
+
+  # 2. Flask Python ML Service
+  - type: web
+    name: jeeva-ml
+    env: docker
+    dockerfilePath: Dockerfile
+    dockerContext: ml-service/jeeva-ml
+    plan: free
+
+  # 3. React Vite Frontend
+  - type: web
+    name: jeeva-frontend
+    env: static
+    buildCommand: cd frontend/jeeva-frontend && npm install && npm run build
+    publishDir: frontend/jeeva-frontend/dist
+    plan: free
+    envVars:
+      # Render automatically links these service URLs dynamically
+      - key: VITE_BACKEND_URL
+        fromService:
+          name: jeeva-backend
+          type: web
+          property: host
+      - key: VITE_PREDICT_BASE_URL
+        fromService:
+          name: jeeva-ml
+          type: web
+          property: host
+      # Firebase Configs (Vite needs these at build-time to connect)
+      - key: VITE_FIREBASE_API_KEY
+        sync: false
+      - key: VITE_FIREBASE_AUTH_DOMAIN
+        sync: false
+      - key: VITE_FIREBASE_PROJECT_ID
+        sync: false
+      - key: VITE_FIREBASE_STORAGE_BUCKET
+        sync: false
+      - key: VITE_FIREBASE_MESSAGING_SENDER_ID
+        sync: false
+      - key: VITE_FIREBASE_APP_ID
+        sync: false
+      - key: VITE_FIREBASE_MEASUREMENT_ID
+        sync: false

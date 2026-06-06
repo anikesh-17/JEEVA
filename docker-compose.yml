@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  jeeva-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: jeeva-backend
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - PORT=4000
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  jeeva-ml:
+    build:
+      context: ./ml-service/jeeva-ml
+      dockerfile: Dockerfile
+    container_name: jeeva-ml
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./ml-service/jeeva-ml:/app
+
+  jeeva-frontend:
+    build:
+      context: ./frontend/jeeva-frontend
+      dockerfile: Dockerfile
+    container_name: jeeva-frontend
+    ports:
+      - "5173:5173"
+    env_file:
+      - ./frontend/jeeva-frontend/.env
+    volumes:
+      - ./frontend/jeeva-frontend:/app
+      - /app/node_modules
+    depends_on:
+      - jeeva-backend
+      - jeeva-ml

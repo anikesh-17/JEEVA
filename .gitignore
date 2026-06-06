@@ -57,3 +57,7 @@ env/
 # ML model binaries (large files, regenerate from training)
 # Uncomment below if you don't want to push .pkl files:
 # *.pkl
+
+# Credentials directory
+JEEVA_CREDENTIALS/
+
