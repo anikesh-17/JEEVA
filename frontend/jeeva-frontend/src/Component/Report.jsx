@@ -5,7 +5,7 @@ import { auth, useAuthState } from "../Utils/Config";
 import { useNavigate } from "react-router-dom";
 import { FaFilePdf, FaCube, FaLink, FaCheckCircle, FaSpinner, FaFileInvoice, FaEye, FaArrowDown, FaExclamationTriangle, FaTimes } from "react-icons/fa";
 
-const BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
+const BASE = import.meta.env.VITE_BACKEND_URL || import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
 
 function Report() {
   const navigate = useNavigate();

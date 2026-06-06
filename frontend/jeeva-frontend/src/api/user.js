@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { auth } from '../Utils/Config';
 
-const BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
+const BASE = import.meta.env.VITE_BACKEND_URL || import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
 
 async function getAuthHeaders() {
   const currentUser = auth.currentUser;
