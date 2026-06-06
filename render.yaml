@@ -23,10 +23,11 @@ services:
     plan: free
 
   # 3. React Vite Frontend
-  - type: static
+  - type: web
     name: jeeva-frontend
+    env: static
     buildCommand: cd frontend/jeeva-frontend && npm install && npm run build
-    publishDir: frontend/jeeva-frontend/dist
+    staticPublishPath: frontend/jeeva-frontend/dist
     plan: free
     envVars:
       # Render automatically links these service URLs dynamically
