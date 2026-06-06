@@ -3,7 +3,7 @@ services:
   - type: web
     name: jeeva-backend
     env: docker
-    dockerfilePath: Dockerfile
+    dockerfilePath: backend/Dockerfile
     dockerContext: backend
     plan: free
     envVars:
@@ -18,7 +18,7 @@ services:
   - type: web
     name: jeeva-ml
     env: docker
-    dockerfilePath: Dockerfile
+    dockerfilePath: ml-service/jeeva-ml/Dockerfile
     dockerContext: ml-service/jeeva-ml
     plan: free
 
