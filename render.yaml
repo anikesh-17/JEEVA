@@ -31,15 +31,9 @@ services:
     envVars:
       # Render automatically links these service URLs dynamically
       - key: VITE_BACKEND_URL
-        fromService:
-          name: jeeva-backend
-          type: web
-          property: host
+        sync: false
       - key: VITE_PREDICT_BASE_URL
-        fromService:
-          name: jeeva-ml
-          type: web
-          property: host
+        sync: false
       # Firebase Configs (Vite needs these at build-time to connect)
       - key: VITE_FIREBASE_API_KEY
         sync: false
