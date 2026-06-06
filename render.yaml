@@ -28,7 +28,6 @@ services:
     env: static
     buildCommand: cd frontend/jeeva-frontend && npm install && npm run build
     staticPublishPath: frontend/jeeva-frontend/dist
-    plan: free
     envVars:
       # Render automatically links these service URLs dynamically
       - key: VITE_BACKEND_URL
