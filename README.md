@@ -449,12 +449,12 @@ npm run dev
 | Phase | Description | Status |
 |-------|-------------|--------|
 | ⚙️ **Phase 1** | Project setup — all repos initialized, environments configured, packages installed, version control set up | ✅ Completed |
-| 💻 **Phase 2** | Frontend — React UI, auth pages, dashboard layout, chatbot integration design | ⚙️ In Progress |
-| 🏗️ **Phase 3** | Backend — Node.js + Express server, MongoDB schema, API endpoints for user & record management | ⚙️ In Progress |
-| 🔗 **Phase 4** | Blockchain layer — Solidity smart contracts, Web3.js / Hyperledger-based record verification | ⏳ Planned |
-| 🧠 **Phase 5** | ML microservice — Immunity Index model, preventive suggestion APIs with Flask | ⚙️ In Progress |
-| 📊 **Phase 6** | Analytics dashboard — Chart.js visualizations + MongoDB aggregation pipelines | ⏳ Planned |
-| 🚀 **Phase 7** | Final integration & deployment — CI/CD pipelines, production deployment on Vercel/Render | ⏳ Planned |
+| 💻 **Phase 2** | Frontend — React UI, auth pages, dashboard layout, chatbot integration design | ✅ Completed |
+| 🏗️ **Phase 3** | Backend — Node.js + Express server, MongoDB schema, API endpoints for user & record management | ✅ Completed |
+| 🔗 **Phase 4** | Blockchain layer — Solidity smart contracts, Web3.js / Hyperledger-based record verification | ✅ Completed |
+| 🧠 **Phase 5** | ML microservice — Immunity Index model, preventive suggestion APIs with Flask | ✅ Completed |
+| 📊 **Phase 6** | Analytics dashboard — Chart.js visualizations + MongoDB aggregation pipelines | ✅ Completed |
+| 🚀 **Phase 7** | Final integration & deployment — CI/CD pipelines, production deployment on Vercel/Render | ✅ Completed |
 
 ---
 
